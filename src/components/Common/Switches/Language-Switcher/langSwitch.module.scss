@@ -1,0 +1,19 @@
+@import "@/styles/extends";
+
+.switcherWrapper {
+  position: relative;
+  cursor: pointer;
+  padding: 10px 0;
+  z-index: 101;
+
+  .langSwitcher {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    button {
+      @extend %mainBtn;
+      visibility: hidden;
+    }
+  }
+}

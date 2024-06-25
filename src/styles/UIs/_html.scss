@@ -1,0 +1,26 @@
+body {
+  background-color: var(--main-background);
+  color: var(--text-color);
+}
+
+::selection {
+  background: var(--main-color);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: var(--main-color);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(var(--main-color-rgb), 1);
+}

@@ -1,0 +1,46 @@
+:root {
+  //==> Main Colors
+  --main-color: #014b56;
+  --main-color-rgb: 1, 75, 86;
+  --main-color-dark: #024049;
+  //==> Secondary Colors
+  --secondary-color: #3ab4ff;
+  --secondary-color-rgb: 58, 180, 255;
+  --secondary-color-dark: #238fd2;
+  //==> Text Colors
+  --text-color: #383e50;
+  --pale-text-color: #7a7a7a;
+  //==> Border Colors
+  --border-color: #c1c1c1;
+  //==> Background Main Colors
+  --main-background: #F0EBE3;
+  --main-background-rgb: 232, 237, 245;
+  //==> Background Alternative Colors
+  --alt-background: #fcfcfc;
+  --alt-background-rgb: 252, 252, 252;
+  //==> Toasts Colors
+  --danger-color: #ea5455;
+  --danger-color-rgb: 234, 84, 85;
+  --success-color: #45ca80;
+  --success-color-rgb: 69, 202, 128;
+  --alert-color: #f2b24e;
+  --alert-color-rgb: 242, 178, 78;
+  --info-color: #0dcaf0;
+  --info-color-rgb: 13, 202, 240;
+  // ==> Fonts
+  --font-sans: "Omens Arabic";
+}
+
+html.dark {
+  //==> Text Colors
+  --text-color: #dfdfdf;
+  --pale-text-color: #cdcdcd;
+  //==> Border Colors
+  --border-color: #828282;
+  //==> Background Main Colors
+  --main-background: #242A33;
+  --main-background-rgb: 36, 42, 51;
+  //==> Background Alternative Colors
+  --alt-background: #020202;
+  --alt-background-rgb: 2, 2, 2;
+}

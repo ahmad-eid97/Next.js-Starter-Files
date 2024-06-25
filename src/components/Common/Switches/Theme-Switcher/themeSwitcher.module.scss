@@ -1,0 +1,8 @@
+@import "@/styles/extends";
+
+.themeSwitcher {
+  button {
+    @extend %mainBtn;
+    visibility: hidden;
+  }
+}
