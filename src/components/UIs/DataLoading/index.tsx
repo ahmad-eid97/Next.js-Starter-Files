@@ -1,9 +1,7 @@
 //= Components
 import { Icon } from '@iconify/react';
-//= I18n
-import useDictionary from '@/dictionaries/clientDictionary';
 //= Styles
-import cls from './dataLoading.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   isLoading: boolean;

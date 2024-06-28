@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import useDictionary from "@/dictionaries/clientDictionary";
 //= Components
 //= Styles
-import cls from "./dropDown.module.scss";
+import cls from "./styles.module.scss";
 
 type Props = {
   menu: any[];

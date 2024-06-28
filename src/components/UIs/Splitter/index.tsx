@@ -1,6 +1,6 @@
 import React from 'react';
 //= Styles
-import './splitter.scss';
+import './styles.scss';
 
 function SectionSplitter({ direction }: { direction: 'top' | 'bottom' }) {
   return (

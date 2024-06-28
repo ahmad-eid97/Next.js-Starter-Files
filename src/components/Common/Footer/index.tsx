@@ -1,5 +1,5 @@
 //= Styles
-import cls from './footer.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {}
 

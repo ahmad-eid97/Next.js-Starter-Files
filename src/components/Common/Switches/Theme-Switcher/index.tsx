@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 //= Animations
 import { buttonAnimation } from "./animations";
 //= Styles
-import cls from './themeSwitcher.module.scss';
+import cls from './styles.module.scss';
 
 export default function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();

@@ -4,7 +4,7 @@ import Link from 'next/link';
 //= Components
 import { Icon } from '@iconify/react';
 //= Styles
-import cls from './page-head.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   title: string;

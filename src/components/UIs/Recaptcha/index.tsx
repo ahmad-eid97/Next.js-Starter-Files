@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 //= Components
 // import { Tooltip } from "@mui/material";
 //= Styles
-import cls from "./captcha.module.scss";
+import cls from "./styles.module.scss";
 
 function Captcha() {
   const [captcha, setCaptcha] = useState('');

@@ -1,6 +1,6 @@
 'use client';
 //= Styles
-import cls from './stripeSelect.module.scss';
+import cls from './styles.module.scss';
 
 interface Props<T> {
   label: string

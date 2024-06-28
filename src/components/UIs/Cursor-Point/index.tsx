@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 //= Utils
 import { turnCursorAnimation } from '@/utils/cursorPointer';
 //= Styles
-import styles from './cursorPoint.module.scss';
+import styles from './styles.module.scss';
 
 function CursorPoint() {
   useEffect(() => {

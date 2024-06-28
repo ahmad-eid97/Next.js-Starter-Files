@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 //= I18n
 import useDictionary from "@/dictionaries/clientDictionary";
 //= Styles
-import cls from './select.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   icon?: string;

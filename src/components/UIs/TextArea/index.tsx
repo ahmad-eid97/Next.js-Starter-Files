@@ -1,6 +1,6 @@
 'use client';
 //= Styles
-import cls from './textArea.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   label?: string

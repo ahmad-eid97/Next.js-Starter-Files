@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 //= Components
 import { Icon } from '@iconify/react';
 //= Styles
-import cls from './searchSelect.module.scss';
+import cls from './styles.module.scss';
 
 type Option = {
   label: string;

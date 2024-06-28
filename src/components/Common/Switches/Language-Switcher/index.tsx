@@ -8,7 +8,7 @@ import { useGSAP } from "@gsap/react";
 import { rightButtonAnimation, leftButtonAnimation } from "./animations";
 //= Styles
 import clsx from "clsx";
-import cls from "./langSwitch.module.scss";
+import cls from "./styles.module.scss";
 
 function LanguageSwitcher() {
   const pathName = usePathname();

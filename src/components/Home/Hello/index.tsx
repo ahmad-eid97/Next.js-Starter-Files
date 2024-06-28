@@ -10,7 +10,7 @@ import { headingAnimation } from "./animations";
 //= I18n
 import useDictionary from '@/dictionaries/clientDictionary';
 //= Styles
-import cls from './hello.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {}
 

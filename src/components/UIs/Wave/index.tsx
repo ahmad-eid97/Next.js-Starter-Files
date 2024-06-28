@@ -3,7 +3,7 @@ import React from 'react';
 //= I18n
 import useDictionary from "@/dictionaries/clientDictionary";
 //= Styles
-import './wave.scss';
+import './styles.scss';
 
 function Wave({ direction }: { direction: 'top' | 'bottom' }) {
   const { locale } = useDictionary();

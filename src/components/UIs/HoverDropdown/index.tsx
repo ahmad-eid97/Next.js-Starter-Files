@@ -1,6 +1,6 @@
 import React from 'react';
 //= Styles
-import cls from './hoverDropdown.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   children: React.ReactNode;

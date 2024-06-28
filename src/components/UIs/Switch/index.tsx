@@ -1,5 +1,5 @@
 //= Styles
-import cls from './switch.module.scss';
+import cls from './styles.module.scss';
 
 interface Props {
   name?: string

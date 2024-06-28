@@ -1,7 +1,7 @@
 'use client';
 import React, { useRef } from "react";
 //= Styles
-import cls from "./modal.module.scss";
+import cls from "./styles.module.scss";
 
 type Props = {
   children: React.ReactNode;

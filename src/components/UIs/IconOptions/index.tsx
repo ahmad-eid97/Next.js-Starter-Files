@@ -7,7 +7,7 @@ import { Icon } from '@iconify/react';
 //= I18n
 import useDictionary from "@/dictionaries/clientDictionary";
 //= Styles
-import cls from './iconOptions.module.scss';
+import cls from './styles.module.scss';
 
 
 type Option = {

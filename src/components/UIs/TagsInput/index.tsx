@@ -1,7 +1,7 @@
 //= Components
 import TagsInput from 'react-tagsinput';
 //= Styles
-import cls from './tagsInput.module.scss'
+import cls from './styles.module.scss'
 import 'react-tagsinput/react-tagsinput.css';
 
 type Props = {

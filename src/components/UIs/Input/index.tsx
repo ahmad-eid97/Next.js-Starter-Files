@@ -6,7 +6,7 @@ import Captcha from '@/components/UIs/Recaptcha';
 //= I18n
 import useDictionary from '@/dictionaries/clientDictionary';
 //= Styles
-import cls from './input.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   type?: string

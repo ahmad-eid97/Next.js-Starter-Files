@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 //= Api
 // import { uploadFileToStorage } from '@/api';
 //= Styles
-import cls from './fileInput.module.scss';
+import cls from './styles.module.scss';
 
 type Props = {
   label?: string;
