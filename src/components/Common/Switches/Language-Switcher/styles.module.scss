@@ -1,12 +1,12 @@
 @import "@/styles/extends";
 
-.switcherWrapper {
+.switcher_wrapper {
   position: relative;
   cursor: pointer;
   padding: 10px 0;
   z-index: 101;
 
-  .langSwitcher {
+  .lang_switcher {
     display: flex;
     align-items: center;
     gap: 4px;

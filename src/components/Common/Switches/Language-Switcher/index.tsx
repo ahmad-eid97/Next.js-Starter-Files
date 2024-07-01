@@ -35,8 +35,8 @@ function LanguageSwitcher() {
   }
 
   return (
-    <div className={clsx(cls.switcherWrapper, 'switcherWrapper')} suppressHydrationWarning>
-      <div className={cls.langSwitcher}>
+    <div className={clsx(cls.switcher_wrapper, 'switcherWrapper')} suppressHydrationWarning>
+      <div className={cls.lang_switcher}>
         <button className="englishBtn" onClick={() => switchLang("en")}>English</button>
         <button className="arabicBtn" onClick={() => switchLang("ar")}>Arabic</button>
       </div>

@@ -39,7 +39,7 @@ function SelectBox({ label, icon, options, disabled, placeholder, defaultValue, 
 
 
   return (
-    <div className={`${cls.box} ${locale === 'ar' ? cls.ar : ''} ${noFocus ? cls.noFocus : ''}`} data-label={label ? label : ''}>
+    <div className={`${cls.box} ${locale === 'ar' ? cls.ar : ''} ${noFocus ? cls.no_focus : ''}`} data-label={label ? label : ''}>
       {icon && <Icon icon={icon} />}
       <select className={`${cls.select_box} ${small ? cls.small : ''}`} name={name} onChange={onChange} disabled={disabled} value={DefaultValue}>
         {

@@ -42,7 +42,7 @@ function IconOptions({ options, className, tooltip, icon, noBorder }: Props) {
           <Icon icon={icon || "solar:menu-dots-bold"} />
           {/* </Tooltip> */}
           {openSelect &&
-            <div className={cls.selectArea}>
+            <div className={cls.select_area}>
               {options.map((option) => (
                 !option.hidden &&
                 (typeof option.action === 'string' ?

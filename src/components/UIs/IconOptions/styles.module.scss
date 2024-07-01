@@ -15,7 +15,7 @@
   display: inline-block;
 
   &.rtl {
-    .selectArea {
+    .select_area {
       right: unset;
       left: 0;
     }
@@ -49,7 +49,7 @@
       background-color: rgba(var(--main-color-rgb), 0.1);
     }
 
-    .selectArea {
+    .select_area {
       display: flex;
       flex-direction: column;
       padding: 10px;

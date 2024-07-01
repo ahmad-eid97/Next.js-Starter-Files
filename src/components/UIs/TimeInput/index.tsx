@@ -15,7 +15,7 @@ function TimeInput({ label, value, name, onChange }: Props) {
   const { locale } = useDictionary();
 
   return (
-    <div className={cls.formGroup}>
+    <div className={cls.form_group}>
       <label>{label}</label>
       <div className={`${cls.field} ${locale === 'ar' ? cls.ar : ''}`}>
         <input type="time" value={value} onChange={onChange} name={name || ''} />

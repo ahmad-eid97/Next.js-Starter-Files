@@ -1,6 +1,6 @@
 @import "@/styles/extends";
 
-.themeSwitcher {
+.theme_switcher {
   button {
     @extend %mainBtn;
     visibility: hidden;

@@ -53,7 +53,7 @@ function FileInput({ label, placeholder, name, value, onChange, multiple }: Prop
   }
 
   return (
-    <div className={cls.formGroup}>
+    <div className={cls.form_group}>
       {label && <label>{label}</label>}
       <div className={cls.field}>
         <button onClick={handleOpenPickFile}><Icon icon="icons8:upload-2" /></button>

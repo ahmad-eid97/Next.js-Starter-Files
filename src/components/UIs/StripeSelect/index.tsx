@@ -12,7 +12,7 @@ interface Props<T> {
 function StripeSelect<T extends { label: string, value: string }>({ label, options, choosed, setChoosed }: Props<T>) {
 
   return (
-    <div className={cls.stripeSelect}>
+    <div className={cls.stripe_select}>
       <p>{label}</p>
       <div className={cls.stripe}>
         {options.map((option, index) => (

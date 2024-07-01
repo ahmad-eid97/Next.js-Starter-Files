@@ -65,7 +65,7 @@ function SearchSelect({ placeholder, options, useSearchInWebinar, selectedOption
     <>
       {showOptions && <div className={cls.overlay} onClick={() => setShowOptions(false)}></div>}
       <div className={cls.wrapper}>
-        <div className={cls.searchSelect}>
+        <div className={cls.search_select}>
           <div className={`${cls.field} ${showOptions ? cls.focused : ''}`} onClick={handleOpeningField}>
             <input type="text" placeholder={placeholder || 'Select option'} readOnly value={allOptions.find(option => {
               if (typeof selectedOption === 'object') return option.value === selectedOption.value;
@@ -87,7 +87,7 @@ function SearchSelect({ placeholder, options, useSearchInWebinar, selectedOption
               </li>
             ))}
           </ul>
-          {!allOptions?.length && <div className={cls.noOptions}>No search results...</div>}
+          {!allOptions?.length && <div className={cls.no_Options}>No search results...</div>}
         </div>
       </div>
     </>

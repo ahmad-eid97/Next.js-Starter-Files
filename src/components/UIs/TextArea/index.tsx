@@ -15,7 +15,7 @@ type Props = {
 function TextArea({ label, placeholder, name, value, onChange, disabled }: Props) {
 
   return (
-    <div className={cls.formGroup}>
+    <div className={cls.form_group}>
       {label && <label htmlFor={`input-${name}`}>{label}</label>}
       <div className={cls.field}>
         <textarea disabled={disabled} id={`input-${name}`} placeholder={placeholder || ""} name={name} value={value || ''} onChange={onChange} />

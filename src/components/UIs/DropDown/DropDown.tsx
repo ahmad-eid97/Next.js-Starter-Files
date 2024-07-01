@@ -31,7 +31,7 @@ const DropDown = ({ menu }: Props) => {
         onClick={handleClick}
         loading="lazy"
       />
-      <div className={`${cls.dropdownMenu} ${openMenu ? cls.show : ""} ${locale === 'ar' ? cls.ar : ''}`}>
+      <div className={`${cls.dropdown_menu} ${openMenu ? cls.show : ""} ${locale === 'ar' ? cls.ar : ''}`}>
         <ul>
           {menu.map((item) => (
             <li key={item.title} onClick={handleClose}>

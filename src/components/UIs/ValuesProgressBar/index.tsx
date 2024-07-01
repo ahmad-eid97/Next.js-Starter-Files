@@ -10,7 +10,7 @@ type Props = {
 
 function ValuesProgressBar({ width, firstValue = 0, lastValue = 0, noValues }: Props) {
   return (
-    <div className={cls.valuesProgressBar}>
+    <div className={cls.values_progress_bar}>
       <div className={cls.bar}>
         <span style={{ width: !width ? `${(firstValue / lastValue) * 100}%` : `${width}%` }}></span>
       </div>

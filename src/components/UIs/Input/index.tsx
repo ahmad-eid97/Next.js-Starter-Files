@@ -28,7 +28,7 @@ function Input({ type, icon, tooltip, style, label, placeholder, disabled, name,
   const [showTooltip, setShowTooltip] = useState(false);
 
   return (
-    <div className={cls.formGroup} style={style || {}}>
+    <div className={cls.form_group} style={style || {}}>
       {label && <label htmlFor={`input-${name}`}>{label}</label>}
       {(tooltip && showTooltip) && <span className={`${cls.tooltip} ${locale === 'ar' ? cls.ar : ''}`}>{tooltip}</span>}
       <div className={cls.field}>

@@ -1,12 +1,9 @@
 'use client';
 import React from 'react';
-//= I18n
-import useDictionary from "@/dictionaries/clientDictionary";
 //= Styles
 import './styles.scss';
 
 function Wave({ direction }: { direction: 'top' | 'bottom' }) {
-  const { locale } = useDictionary();
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" className={`wave ${direction}`}>

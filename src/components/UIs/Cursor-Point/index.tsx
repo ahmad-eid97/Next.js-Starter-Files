@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 //= Utils
 import { turnCursorAnimation } from '@/utils/cursorPointer';
 //= Styles
-import styles from './styles.module.scss';
+import cls from './styles.module.scss';
 
 function CursorPoint() {
   useEffect(() => {
@@ -11,18 +11,18 @@ function CursorPoint() {
   }, [])
 
   return (
-    <div className={styles.cursorPointer} id="cursor_pointer">
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
-      <div className={`${styles.circle} cursorCircle`}></div>
+    <div className={cls.cursor_pointer} id="cursor_pointer">
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
+      <div className={`${cls.circle} cursorCircle`}></div>
     </div>
   )
 }

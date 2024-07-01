@@ -19,7 +19,7 @@ export default function ThemeSwitcher() {
   })
 
   return (
-    <div className={cls.themeSwitcher}>
+    <div className={cls.theme_switcher}>
       <button ref={buttonRef} onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
         {theme === 'light' ?
           <Icon icon="radix-icons:moon" />
