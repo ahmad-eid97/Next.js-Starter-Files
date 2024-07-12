@@ -8,7 +8,7 @@ type Props = {
   placeholder?: string;
   name?: string;
   value: string[];
-  onChange: (value: string[]) => void;
+  onChange: () => void;
 }
 
 function TagsInputComponent({ placeholder, name, value, onChange }: Props) {

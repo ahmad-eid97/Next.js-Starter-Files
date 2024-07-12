@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import { AxiosRequestConfig, AxiosResponse } from 'axios';
 //= Axios Util
 import { clientWithToken, clientNormal } from '@/utils/axios';

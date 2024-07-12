@@ -19,5 +19,6 @@ export function createServer(handlerConfig: HandlerConfig[]) {
 type HandlerConfig = {
   method: 'get' | 'post' | 'put' | 'patch' | 'delete',
   path: string,
+  // eslint-disable-next-line
   response: (context: any) => any;
 }

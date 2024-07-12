@@ -7,7 +7,7 @@ export function turnCursorAnimation() {
   const coords = { x: 0, y: 0 };
   const circles = document.querySelectorAll<CircleElement>('.cursorCircle');
 
-  circles.forEach(function (circle, index) {
+  circles.forEach(function (circle) {
     circle.x = 0;
     circle.y = 0;
   });
@@ -24,11 +24,11 @@ export function turnCursorAnimation() {
     const specialCursor = targetElement.classList.contains('specialCursor');
 
     if (isOnLink || isOnButton || specialCursor || isParentLink || isParentButton) {
-      circles.forEach(function (circle, index) {
+      circles.forEach(function (circle) {
         circle.classList.add('cursorOnLink');
       });
     } else {
-      circles.forEach(function (circle, index) {
+      circles.forEach(function (circle) {
         circle.classList.remove('cursorOnLink');
       });
     }

@@ -8,7 +8,7 @@ type Props = {
   label: string;
   value: string;
   name?: string;
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange: () => void;
 }
 
 function TimeInput({ label, value, name, onChange }: Props) {

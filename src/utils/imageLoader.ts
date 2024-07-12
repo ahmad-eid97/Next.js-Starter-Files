@@ -10,7 +10,7 @@ export default function imageLoader() {
     };
   });
 
-  let erroredImagesObserver = new IntersectionObserver(function (entries, observer) {
+  let erroredImagesObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
       if (entry.isIntersecting) {
         let Img = entry.target as HTMLImageElement;

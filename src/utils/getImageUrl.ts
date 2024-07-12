@@ -1,4 +1,4 @@
-export default function getImageUrl(src: string | null | undefined, isShort?: boolean) {
+export default function getImageUrl(src: string | null | undefined) {
   if (!src || typeof src !== 'string') return '';
   const baseUrl = process.env.NEXT_PUBLIC_STORAGE_URL;
 

@@ -8,7 +8,7 @@ type Props = {
   height?: string;
   name: string;
   value: string;
-  onChange?: (event: React.ChangeEvent<HTMLTextAreaElement>) => void;
+  onChange?: () => void;
   disabled?: boolean
 }
 

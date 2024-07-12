@@ -9,7 +9,7 @@ export function middleware(request: NextRequest) {
   const savedLocaleCookie = request.cookies.get('website-locale');
   const savedLocale = savedLocaleCookie?.value;
   const currentLocale = request.nextUrl.pathname.split('/')[1];
-  const token = request.cookies.get('website-access-token')?.value;
+  // const token = request.cookies.get('website-access-token')?.value;
 
   /***************************** Internationalization ********************************/
   /*
